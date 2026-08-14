@@ -1,0 +1,11 @@
+# ---------------------------------------------------------------------------
+# Modele a recopier sous le nom application-local.properties, puis a adapter.
+# Le fichier resultant est ignore par git : aucun mot de passe ne part sur
+# GitHub.
+# ---------------------------------------------------------------------------
+spring.datasource.password=votre_mot_de_passe
+
+# Decommentez si votre base ne correspond pas aux valeurs par defaut
+# (localhost:5432/dashboard_db, utilisateur postgres).
+#spring.datasource.url=jdbc:postgresql://localhost:5432/dashboard_db
+#spring.datasource.username=postgres
