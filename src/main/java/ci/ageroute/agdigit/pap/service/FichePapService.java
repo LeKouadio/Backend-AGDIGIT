@@ -7,6 +7,7 @@ import ci.ageroute.agdigit.pap.repository.FichePapRepository;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.BiFunction;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -23,21 +24,59 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional(readOnly = true)
 public class FichePapService {
 
+    /** Un critere de recherche propose dans le selecteur de la liste. */
+    public record CritereRecherche(String code, String libelle) {}
+
     private final FichePapRepository depot;
+
+    /**
+     * Champs sur lesquels la recherche est autorisee.
+     *
+     * <p>Une liste blanche plutot qu'un nom de champ libre : le code recu ne
+     * touche jamais la requete, il selectionne une methode deja ecrite.
+     */
+    private final Map<String, BiFunction<String, Pageable, Page<FichePap>>> recherches =
+            new LinkedHashMap<>();
+
+    private final List<CritereRecherche> criteres = List.of(
+            new CritereRecherche("identifiantPap", "Identifiant du pap"),
+            new CritereRecherche("nomPap", "Nom du pap"),
+            new CritereRecherche("commune", "Commune de l'enquêté"),
+            new CritereRecherche("quartier", "Quartier de l'enquêté"),
+            new CritereRecherche("enqueteur", "Nom de l'enquêteur"),
+            new CritereRecherche("numPiece", "Numéro de la pièce"),
+            new CritereRecherche("telephone1", "Numéro de téléphone principal"));
 
     public FichePapService(FichePapRepository depot) {
         this.depot = depot;
+        recherches.put("identifiantPap", depot::findByIdentifiantPapContainingIgnoreCase);
+        recherches.put("nomPap", depot::findByNomPapContainingIgnoreCase);
+        recherches.put("commune", depot::findByCommuneContainingIgnoreCase);
+        recherches.put("quartier", depot::findByQuartierContainingIgnoreCase);
+        recherches.put("enqueteur", depot::findByEnqueteurContainingIgnoreCase);
+        recherches.put("numPiece", depot::findByNumPieceContainingIgnoreCase);
+        recherches.put("telephone1", depot::findByTelephone1ContainingIgnoreCase);
     }
 
-    /** Liste paginee, filtrable par commune ou par fragment de nom. */
-    public Page<FichePapResumeDto> lister(String commune, String nom, Pageable pagination) {
+    /** Criteres proposes dans le selecteur, dans l'ordre d'affichage. */
+    public List<CritereRecherche> criteres() {
+        return criteres;
+    }
+
+    /**
+     * Liste paginee. {@code champ} designe le critere, {@code valeur} le texte
+     * cherche ; sans valeur, la liste complete est renvoyee.
+     */
+    public Page<FichePapResumeDto> lister(String champ, String valeur, Pageable pagination) {
         Page<FichePap> fiches;
-        if (commune != null && !commune.isBlank()) {
-            fiches = depot.findByCommuneIgnoreCase(commune.trim(), pagination);
-        } else if (nom != null && !nom.isBlank()) {
-            fiches = depot.findByNomPapContainingIgnoreCase(nom.trim(), pagination);
-        } else {
+        if (valeur == null || valeur.isBlank()) {
             fiches = depot.findAll(pagination);
+        } else {
+            var recherche = recherches.get(champ == null ? "identifiantPap" : champ);
+            if (recherche == null) {
+                throw new IllegalArgumentException("Critère de recherche inconnu : " + champ);
+            }
+            fiches = recherche.apply(valeur.trim(), pagination);
         }
         return fiches.map(FichePapResumeDto::depuis);
     }

@@ -1,0 +1,157 @@
+[
+ {
+  "nom": "acces_eclairage_soin_ecole_nbr_pers_malade",
+  "libelle": "quel est le nombre de personne malade ?",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_distance_dom_sante",
+  "libelle": "distance entre le domicile et le centre de santé",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_autre_type_reseau_elec",
+  "libelle": "Précision sur un autre type de réseau électrique",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_nbr_elev_mang_cantine",
+  "libelle": "nombre d'élèves mangeant à la cantine",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_autre_taux_couverture",
+  "libelle": "Autre taux ou proportion de couverture concernant l'accès aux services d'éclairage, de soins ou d'éducation.",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_type_reseau_elec",
+  "libelle": "type du réseau électrique",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_periode_an_coupure",
+  "libelle": "période d'année de coupure",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_distance_dom_ecole_prim",
+  "libelle": "distance entre le domicile et l'école primaire",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_primaire",
+  "libelle": "enfants au primaire",
+  "type": "varchar"
+ },
+ {
+  "nom": "identifiant_pap",
+  "libelle": "identifiant du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_an_con_reseau_elec",
+  "libelle": "année connexion réseau électrique",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_assureur",
+  "libelle": "Quel es votre assurance ?",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_principale_src_eclair",
+  "libelle": "principale source d'éclairage",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_montant_dep_conso_energie",
+  "libelle": "montant des dépenses de consommation d'énergie",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_distance_dom_ecole_sec",
+  "libelle": "distance entre le domicile et l'école secondaire",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_periode_an_malade",
+  "libelle": "période (année) durant laquelle une personne a été malade",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_nbr_enf_scolarise_7_18",
+  "libelle": "nombre d'enfants scolarisable âgé de 7-18 ans",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_is_assurance",
+  "libelle": "dispose t-il d'une assurrance ?",
+  "type": "boolean"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_taux_couverture",
+  "libelle": "taux de couverture de l'assurance",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_type_soin_men",
+  "libelle": "type de soins utilisé ou reçu par le ménage",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_nbr_pers_couv_assurance",
+  "libelle": "nombre de personne couvert par l'assurance",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_maternelle",
+  "libelle": "enfants à la maternelle",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_autre_justif_type_soin",
+  "libelle": "Précision sur le type de soin autre que ceux proposés dans la liste",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_nbr_pers_age_60",
+  "libelle": "nombre de jeune âgés de 15 - 59 ans",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_justif_reponse",
+  "libelle": "justification d'une réponse donnée",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_secondaire",
+  "libelle": "enfants au secondaire",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_nbr_enf_0_14",
+  "libelle": "nombre d'enfants âgés de 0 à 14 ans",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_superieur",
+  "libelle": "enfants au supérieur",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_franco_arabe",
+  "libelle": "enfants franco-arabe",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_nbr_enf_scolarisable",
+  "libelle": "nobre d'enfants scolarisable",
+  "type": "varchar"
+ },
+ {
+  "nom": "acces_eclairage_soin_ecole_nb_enft_scolarise",
+  "libelle": "nombre d'enfants scolarisé ",
+  "type": "varchar"
+ }
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "nom": "identifiant_pap",
+  "libelle": "identifiant du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_equpmnt_imp_caract_equip_collec",
+  "libelle": "caractéristiques de l'équipement collectif impacté.",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_equpmnt_imp_annee_inst_site",
+  "libelle": "l'année d'installation de l'équipement sur le site",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_equpmnt_imp_statu_equip_collec",
+  "libelle": "statut de l'équipement collectif impacté",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_catgori_equpmnt_imp_nbr_emplye_equip_nbr_pers_freq",
+  "libelle": "nombre de personnes fréquentant l'équipement",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_equpmnt_imp_denomi_equip_collec",
+  "libelle": "dénomination de l'équipement collectif impacté",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_equpmnt_imp_nbr_emplye_equip",
+  "libelle": "nombre d'employés de l'équipement",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_equpmnt_imp_revenu_mensuel_equip_lucratif",
+  "libelle": "Revenu mensuel de l'équipement lucratif",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_equpmnt_imp_lieu_prov_pers",
+  "libelle": "lieu de provenance des personnes utilisant l'équipement",
+  "type": "varchar"
+ }
+]

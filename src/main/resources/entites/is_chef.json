@@ -1,0 +1,52 @@
+[
+ {
+  "nom": "autre_situation_emploi",
+  "libelle": "autre situation d'emploi du menage",
+  "type": "varchar"
+ },
+ {
+  "nom": "sit_emploi_membre_men",
+  "libelle": "situation d'emploi du membre de menage",
+  "type": "varchar"
+ },
+ {
+  "nom": "age_membre_men",
+  "libelle": "age du membre du menage",
+  "type": "date"
+ },
+ {
+  "nom": "niveau_etude_membre_men",
+  "libelle": "niveau d'étude du membre de menage",
+  "type": "varchar"
+ },
+ {
+  "nom": "sex_membre_men",
+  "libelle": "sexe du membre de menage",
+  "type": "varchar"
+ },
+ {
+  "nom": "identifiant_pap",
+  "libelle": "identifiant du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "parente_membre_men",
+  "libelle": "parent du menage",
+  "type": "varchar"
+ },
+ {
+  "nom": "nationalite_membre_men",
+  "libelle": "nationalite du membre de menage",
+  "type": "varchar"
+ },
+ {
+  "nom": "statut_matri_membre_men",
+  "libelle": "statut matrimoniale du membre de menage",
+  "type": "varchar"
+ },
+ {
+  "nom": "nom_membre_men",
+  "libelle": "nom du membre du menage",
+  "type": "varchar"
+ }
+]

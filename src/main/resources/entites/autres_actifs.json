@@ -1,0 +1,52 @@
+[
+ {
+  "nom": "autres_actifs_menage_logement",
+  "libelle": "Montant total consacré au logement du ménage",
+  "type": "varchar"
+ },
+ {
+  "nom": "autres_actifs_menage_sante",
+  "libelle": "Montant consacré à la santé",
+  "type": "varchar"
+ },
+ {
+  "nom": "autres_actifs_menage_transport",
+  "libelle": "Montant consacré au transport",
+  "type": "varchar"
+ },
+ {
+  "nom": "autres_actifs_menage_autre_charge",
+  "libelle": "Montant consacré aux autres charge",
+  "type": "varchar"
+ },
+ {
+  "nom": "autres_actifs_menage_communication",
+  "libelle": "Montant consacré à la communication",
+  "type": "varchar"
+ },
+ {
+  "nom": "identifiant_pap",
+  "libelle": "identifiant du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "autres_actifs_menage_consom_alimentaire",
+  "libelle": "Montant total consacré à la consommation alimentaire",
+  "type": "varchar"
+ },
+ {
+  "nom": "autres_actifs_menage_education",
+  "libelle": "Montant des dépenses consacrées à l'éducation",
+  "type": "varchar"
+ },
+ {
+  "nom": "autres_actifs_menage_habillement",
+  "libelle": "Montant consacré à l'habillement",
+  "type": "varchar"
+ },
+ {
+  "nom": "autres_actifs_menage_entretien_equip",
+  "libelle": "Montant consacré à l'entretien des équipements",
+  "type": "varchar"
+ }
+]

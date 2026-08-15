@@ -18,11 +18,19 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface FichePapRepository extends JpaRepository<FichePap, String> {
 
-    /** Fiches d'une commune donnee, insensible a la casse. */
-    Page<FichePap> findByCommuneIgnoreCase(String commune, Pageable pageable);
+    Page<FichePap> findByIdentifiantPapContainingIgnoreCase(String fragment, Pageable pageable);
 
-    /** Recherche sur le nom de la PAP, insensible a la casse. */
     Page<FichePap> findByNomPapContainingIgnoreCase(String fragment, Pageable pageable);
+
+    Page<FichePap> findByCommuneContainingIgnoreCase(String fragment, Pageable pageable);
+
+    Page<FichePap> findByQuartierContainingIgnoreCase(String fragment, Pageable pageable);
+
+    Page<FichePap> findByEnqueteurContainingIgnoreCase(String fragment, Pageable pageable);
+
+    Page<FichePap> findByNumPieceContainingIgnoreCase(String fragment, Pageable pageable);
+
+    Page<FichePap> findByTelephone1ContainingIgnoreCase(String fragment, Pageable pageable);
 
     /** Liste des communes presentes, pour alimenter un filtre cote frontend. */
     @Query("select distinct f.commune from FichePap f where f.commune is not null order by f.commune")

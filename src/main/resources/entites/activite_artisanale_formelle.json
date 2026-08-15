@@ -1,0 +1,132 @@
+[
+ {
+  "nom": "liste_categorie_activ_comm_artis_autre_taxe",
+  "libelle": "autre taxe",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_catgori_act_com_artis_frmel_entr_tot_salair_empl_entr",
+  "libelle": "montant total des salaires versés aux employés de l'entreprise",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_activ_comm_artis_revenu_mensuel_tire",
+  "libelle": "revenu mensuel tiré d'une activité",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_activ_comm_artis_nbre_pers_travailleur",
+  "libelle": "nombre de personne travailleur",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_act_com_artis_act_frmel_entr_form_juridiq",
+  "libelle": "forme juridique de l'entreprise",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_act_com_artis_act_frmel_entr_travaux_impact",
+  "libelle": "travaux impactés",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_activ_comm_artis_lesquelles_taxes",
+  "libelle": "taxes",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_act_com_artis_act_frmel_entr_date_debut_acti",
+  "libelle": "date de début de l'activité de l'entreprise",
+  "type": "text"
+ },
+ {
+  "nom": "liste_categorie_act_com_artis_act_frmel_entr_date_crea_entre",
+  "libelle": "date de création de l'entreprise",
+  "type": "text"
+ },
+ {
+  "nom": "liste_categorie_activ_comm_artis_autre_act_impactee",
+  "libelle": "autre activité commerciale impactée",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_act_com_artis_act_frmel_entr_situation_geo",
+  "libelle": "situation géographique de l'entreprise",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_act_com_artis_act_frmel_entr_local_ent_detruit",
+  "libelle": "le local de l'entreprise est-il  détruit ?",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_catgori_act_com_artis_act_frmel_entr_denomin_entreprise",
+  "libelle": "la dénomination (nom) de l'entreprise",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_catgori_activ_comm_artis_montant_paye_activ_comm",
+  "libelle": "montant payé pour une activité commerciale",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_activ_comm_artis_freq_paye_taxe",
+  "libelle": "fréquence de paiement des taxes",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_activ_comm_artis_is_activite_formelle",
+  "libelle": "l'activité est elle formelle ?",
+  "type": "boolean"
+ },
+ {
+  "nom": "liste_categorie_act_com_artis_act_frmel_entr_produit_service",
+  "libelle": "produits ou services proposés par l'entreprise",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_activ_comm_artis_is_paye_taxe",
+  "libelle": "la taxe est-elle payé ?",
+  "type": "boolean"
+ },
+ {
+  "nom": "liste_categorie_act_com_artis_act_frmel_entr_chif_affai_mensuel",
+  "libelle": "chiffre d'affaires mensuel de l'entreprise",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_act_com_artis_act_frmel_entr_regime_imposition",
+  "libelle": "régime d'imposition de l'entreprise",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_catgori_act_com_artis_act_frmel_entr_presence_enseigne",
+  "libelle": "présence d'une enseigne pour l'entreprise",
+  "type": "varchar"
+ },
+ {
+  "nom": "identifiant_pap",
+  "libelle": "identifiant du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_act_com_artis_act_frmel_entr_num_rccm",
+  "libelle": "numéro d'immatriculation au Registre du Commerce et du Crédit Mobilier (RCCM)",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_catgori_act_com_artis_001_lieu_excer_acti",
+  "libelle": "lieu d'exercement de l'activité",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_activ_comm_artis_img_activite",
+  "libelle": "image de l'activité",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_act_com_artis_act_frmel_entr_ncc",
+  "libelle": "Numéro de Compte Contribuable (NCC)",
+  "type": "varchar"
+ }
+]

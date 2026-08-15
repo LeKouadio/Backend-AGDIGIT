@@ -10,7 +10,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,16 +20,17 @@ import org.springframework.web.bind.annotation.RestController;
  * <p>A tester dans Postman :
  * <pre>
  *   GET http://localhost:8080/api/paps
- *   GET http://localhost:8080/api/paps?page=0&amp;size=20&amp;commune=COCODY
- *   GET http://localhost:8080/api/paps?nom=KOUASSI
- *   GET http://localhost:8080/api/paps/PVS%2FS1%2FCO%2FDJ1%2FMEN%2F000000367
+ *   GET http://localhost:8080/api/paps?page=0&amp;size=10&amp;champ=nomPap&amp;valeur=KOUASSI
+ *   GET http://localhost:8080/api/paps?champ=identifiantPap&amp;valeur=DJ1
+ *   GET http://localhost:8080/api/paps/detail?identifiant=PVS/S1/CO/DJ1/MEN/000000367
+ *   GET http://localhost:8080/api/paps/criteres
  *   GET http://localhost:8080/api/paps/communes
  *   GET http://localhost:8080/api/paps/statistiques
  * </pre>
  *
- * <p>Attention : l'identifiant PAP contient des {@code /}. Dans une URL il doit
- * etre encode en {@code %2F}, sinon le serveur le lit comme plusieurs segments
- * de chemin. Postman propose de le faire automatiquement.
+ * <p>L'identifiant PAP contient des {@code /} : il passe donc en PARAMETRE et
+ * jamais dans le chemin. Spring Security refuse les {@code %2F} dans un segment
+ * d'URL et repondrait 400.
  */
 @RestController
 @RequestMapping("/api/paps")
@@ -42,14 +42,24 @@ public class FichePapController {
         this.service = service;
     }
 
-    /** Liste paginee. Les parametres page, size et sort sont geres par Spring. */
+    /**
+     * Liste paginee. {@code champ} designe le critere de recherche et
+     * {@code valeur} le texte cherche, comme le selecteur de la plateforme.
+     * Les parametres page, size et sort sont geres par Spring.
+     */
     @GetMapping
     public Page<FichePapResumeDto> lister(
-            @RequestParam(required = false) String commune,
-            @RequestParam(required = false) String nom,
-            @PageableDefault(size = 20, sort = "identifiantPap", direction = Sort.Direction.ASC)
+            @RequestParam(required = false, defaultValue = "identifiantPap") String champ,
+            @RequestParam(required = false) String valeur,
+            @PageableDefault(size = 10, sort = "identifiantPap", direction = Sort.Direction.ASC)
             Pageable pagination) {
-        return service.lister(commune, nom, pagination);
+        return service.lister(champ, valeur, pagination);
+    }
+
+    /** Criteres proposes dans le selecteur de recherche. */
+    @GetMapping("/criteres")
+    public List<FichePapService.CritereRecherche> criteres() {
+        return service.criteres();
     }
 
     /** Valeurs distinctes de commune, pour alimenter un menu deroulant. */
@@ -64,9 +74,14 @@ public class FichePapController {
         return service.statistiques();
     }
 
-    /** Fiche complete, avec ses 71 colonnes metier. */
-    @GetMapping("/{identifiantPap}")
-    public FichePap detail(@PathVariable String identifiantPap) {
+    /**
+     * Fiche complete, avec ses 71 colonnes metier.
+     *
+     * <p>L'identifiant passe en parametre : il contient des {@code /} et Spring
+     * Security refuse les {@code %2F} dans un segment de chemin.
+     */
+    @GetMapping("/detail")
+    public FichePap detail(@RequestParam("identifiant") String identifiantPap) {
         return service.parIdentifiant(identifiantPap);
     }
 }

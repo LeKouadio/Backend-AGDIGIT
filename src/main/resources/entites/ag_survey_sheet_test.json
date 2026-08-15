@@ -1,0 +1,357 @@
+[
+ {
+  "nom": "quartier_code",
+  "libelle": "Code du quartier",
+  "type": "varchar"
+ },
+ {
+  "nom": "cons_alim_acces_eau_src_eau",
+  "libelle": "Source d'accès à l'eau",
+  "type": "varchar"
+ },
+ {
+  "nom": "motif_install",
+  "libelle": "Motif d'installation",
+  "type": "varchar"
+ },
+ {
+  "nom": "app_culture",
+  "libelle": "Groupe ethnique",
+  "type": "numeric"
+ },
+ {
+  "nom": "telephone1",
+  "libelle": "Numéro de téléphone principal",
+  "type": "varchar"
+ },
+ {
+  "nom": "avantage_assoc_org",
+  "libelle": "Avantage de l'association de l'organisation",
+  "type": "varchar"
+ },
+ {
+  "nom": "is_personne_vul_menage",
+  "libelle": "sf",
+  "type": "varchar"
+ },
+ {
+  "nom": "list_activi_declarati_activi_activite_second_menage",
+  "libelle": "activité secondaire exercée par le ménage en complément de l'activité principale",
+  "type": "varchar"
+ },
+ {
+  "nom": "nom_pap",
+  "libelle": "Nom du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "activite_professionnelle_autre_activite_princ",
+  "libelle": "Précision d'une autre activité principale exercée",
+  "type": "varchar"
+ },
+ {
+  "nom": "niveau_instruc",
+  "libelle": "Niveau d'instruction",
+  "type": "numeric"
+ },
+ {
+  "nom": "appartenance_org",
+  "libelle": "Appartenance à une organisation",
+  "type": "varchar"
+ },
+ {
+  "nom": "date_naissance",
+  "libelle": "Date de naissance ",
+  "type": "date"
+ },
+ {
+  "nom": "enqueteur",
+  "libelle": "Nom de l'enquêteur",
+  "type": "varchar"
+ },
+ {
+  "nom": "nom_proprio",
+  "libelle": "Nom du propriétaire",
+  "type": "varchar"
+ },
+ {
+  "nom": "identification_enquete_autre_lieu_resid",
+  "libelle": "précision sur le lieu de résidence autre que ceux proposés dans la liste",
+  "type": "varchar"
+ },
+ {
+  "nom": "identification_enquete_autre_ethnie",
+  "libelle": "Précision sur une autre ethnie",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_lieu_princ_approvi",
+  "libelle": "lieu principal d'approvisionnement",
+  "type": "varchar"
+ },
+ {
+  "nom": "a_compo_men_pers_maladie_meta_menage",
+  "libelle": "présence de personnes atteintes d'une maladie mentale dans le ménage",
+  "type": "varchar"
+ },
+ {
+  "nom": "identification_enquete_email",
+  "libelle": "Adresse email",
+  "type": "varchar"
+ },
+ {
+  "nom": "a_compo_men_enf_vul_menage",
+  "libelle": "présence d'enfants vulnérables dans le ménage",
+  "type": "varchar"
+ },
+ {
+  "nom": "commune_code",
+  "libelle": "Code de la commune",
+  "type": "varchar"
+ },
+ {
+  "nom": "commune",
+  "libelle": "Commune de l'enquêté",
+  "type": "numeric"
+ },
+ {
+  "nom": "identifiant_pap",
+  "libelle": "Identifiant du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "telephone2",
+  "libelle": "Numéro de téléphone secondaire",
+  "type": "varchar"
+ },
+ {
+  "nom": "lieu_residence_act",
+  "libelle": "Lieu de résidence de l'activité",
+  "type": "varchar"
+ },
+ {
+  "nom": "nbre_personnes_menage",
+  "libelle": "Nombre de personnes du ménage",
+  "type": "numeric"
+ },
+ {
+  "nom": "telephone_men",
+  "libelle": "Téléphone du ménage",
+  "type": "varchar"
+ },
+ {
+  "nom": "a_compo_men_autre_organisation",
+  "libelle": "Précision sur une autre organisation",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_origine_client",
+  "libelle": "origine du client",
+  "type": "varchar"
+ },
+ {
+  "nom": "a_compo_men_nbre_pers_vuln_menage",
+  "libelle": "nombre total de personnes vulnérables dans le ménage",
+  "type": "varchar"
+ },
+ {
+  "nom": "cons_alim_acces_eau_annee_util_eau",
+  "libelle": "année d'utilisation d'eau",
+  "type": "varchar"
+ },
+ {
+  "nom": "quartier",
+  "libelle": "Quartier de l'enquêté",
+  "type": "varchar"
+ },
+ {
+  "nom": "section_code",
+  "libelle": "Section du code",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_categorie",
+  "libelle": "catégorie",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_total_sal_emp",
+  "libelle": "Montant total des salaires versés aux employés",
+  "type": "varchar"
+ },
+ {
+  "nom": "id_pap",
+  "libelle": "Identification du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "situation_mat",
+  "libelle": "Situation matrimoniale",
+  "type": "varchar"
+ },
+ {
+  "nom": "nationalite",
+  "libelle": "Nationalité",
+  "type": "varchar"
+ },
+ {
+  "nom": "projet_code",
+  "libelle": "Code du projet",
+  "type": "varchar"
+ },
+ {
+  "nom": "date_enquete",
+  "libelle": "Date de l'enquête",
+  "type": "date"
+ },
+ {
+  "nom": "nom_prenom_pers_contacter",
+  "libelle": "Nom de la personne à contacter",
+  "type": "varchar"
+ },
+ {
+  "nom": "meta_deprecated_id",
+  "libelle": "Ancien identifiant de l'enregistrement",
+  "type": "varchar"
+ },
+ {
+  "nom": "activite_professionnelle_nbr_transfer",
+  "libelle": "Nombre de transferts liés à l'activité professionnelle",
+  "type": "varchar"
+ },
+ {
+  "nom": "activite_professionnelle_sup_totale_parcelle",
+  "libelle": "Superficie totale de la parcelle utilisée pour l'activité professionnelle.",
+  "type": "varchar"
+ },
+ {
+  "nom": "a_compo_men_fem_grossess_menage",
+  "libelle": "présence de femmes enceintes dans le ménage",
+  "type": "varchar"
+ },
+ {
+  "nom": "activite_professionnelle_autre_lieu_travail",
+  "libelle": "Précision sur un autre lieu de travail",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_annee_install_site",
+  "libelle": "l'année d'installation sur le site",
+  "type": "varchar"
+ },
+ {
+  "nom": "a_compo_men_handicapephysment_menage",
+  "libelle": "présence de personnes ayant un handicap physique dans le ménage",
+  "type": "varchar"
+ },
+ {
+  "nom": "a_compo_men_fem_chef_menage",
+  "libelle": "présence d'une femme cheffe de ménage",
+  "type": "varchar"
+ },
+ {
+  "nom": "genre",
+  "libelle": "Genre ",
+  "type": "varchar"
+ },
+ {
+  "nom": "annee_inst",
+  "libelle": "Année d'installation",
+  "type": "varchar"
+ },
+ {
+  "nom": "ethnie",
+  "libelle": "Ethnie",
+  "type": "varchar"
+ },
+ {
+  "nom": "num_piece",
+  "libelle": "Numéro de la pièce",
+  "type": "varchar"
+ },
+ {
+  "nom": "statut_association",
+  "libelle": "Statut de l'association",
+  "type": "varchar"
+ },
+ {
+  "nom": "is_chef_men",
+  "libelle": "Est-il le chef de ménage?",
+  "type": "boolean"
+ },
+ {
+  "nom": "nature_piece",
+  "libelle": "Nature de la pièce",
+  "type": "varchar"
+ },
+ {
+  "nom": "type_rela__mem_org",
+  "libelle": "Type de relation des membres de l'organisation",
+  "type": "varchar"
+ },
+ {
+  "nom": "list_activi_declarati_activi_lieu_activite_sec",
+  "libelle": "Lieu où l'activité secondaire est exercée",
+  "type": "varchar"
+ },
+ {
+  "nom": "cout_total_charge_menage",
+  "libelle": "Montant total des charges supportées par le ménage",
+  "type": "varchar"
+ },
+ {
+  "nom": "cons_alim_acces_eau_dist_moy_dom_eau",
+  "libelle": "distance moyenne des domiciles à un point d'eau",
+  "type": "varchar"
+ },
+ {
+  "nom": "a_compo_men_pers_agee_vul_menage",
+  "libelle": "présence de personnes âgées vulnérables dans le ménage",
+  "type": "varchar"
+ },
+ {
+  "nom": "identification_enquete_autre_nature_piece",
+  "libelle": "Précision sur une autre nature de pièce",
+  "type": "varchar"
+ },
+ {
+  "nom": "declaration_org_quartier",
+  "libelle": "Déclaration organisation du quartier",
+  "type": "varchar"
+ },
+ {
+  "nom": "telephone_pers_contacter",
+  "libelle": "Numéro de téléphone de la personne à contacter",
+  "type": "varchar"
+ },
+ {
+  "nom": "contact",
+  "libelle": "Numéro de l'enquêteur",
+  "type": "varchar"
+ },
+ {
+  "nom": "activite_professionnelle_montant_transfer_6mois",
+  "libelle": "Montant total des transferts réalisés ou reçus au cours des six derniers mois",
+  "type": "varchar"
+ },
+ {
+  "nom": "cons_alim_acces_eau_src_combustion",
+  "libelle": "source combustion",
+  "type": "varchar"
+ },
+ {
+  "nom": "cons_alim_acces_eau_montant_dep_eau",
+  "libelle": "montant des dépenses liées à l'eau",
+  "type": "varchar"
+ },
+ {
+  "nom": "a_compo_men_orphelin_menage",
+  "libelle": "présence d'orphelin enceintes dans le ménage",
+  "type": "varchar"
+ },
+ {
+  "nom": "identification_enquete_autre_motif_install",
+  "libelle": "Précision sur un autre motif d'installation",
+  "type": "varchar"
+ }
+]

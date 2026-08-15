@@ -1,0 +1,207 @@
+[
+ {
+  "nom": "identifiant_pap",
+  "libelle": "identifiant du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categori_carac_bien_bati_mode_acq_bati",
+  "libelle": "mode d'acquisition d'un bien bâti",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_nom_prop_en_location",
+  "libelle": "nom du propriétaire d'un bien bâti mis en location",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_cout_const_bati",
+  "libelle": "coût de construction du bâtiment.",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_annee_acq_fonc",
+  "libelle": "année d'acquisition du bien foncier",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_nbre_niveau",
+  "libelle": "nombre de niveau",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_num_bati",
+  "libelle": "numéro du batîment",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_titre_propriete",
+  "libelle": "titre de propriété du bien foncier",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_numero_prop_en_location_bati",
+  "libelle": "numéro de contact du propriétaire",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_statut_occupation",
+  "libelle": "statut d'occupation",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_autre_fct_bati",
+  "libelle": "autre fonction du bâtiment",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_montant_acq_fonc",
+  "libelle": "montant d'acquisition du bien foncier",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_surface_impactee",
+  "libelle": "la superficie de la parcelle affectée ",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_loyer_mens_percu_bail",
+  "libelle": "Montant du loyer mensuel perçu au titre du bail",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_photo_doc_foncier",
+  "libelle": "photo du document foncier",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_type_foncier",
+  "libelle": "type foncier",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_niveau_ach",
+  "libelle": "Niveau d'achèvement du bâtiment",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_loyer_mens_percu",
+  "libelle": "loyer mensuelle perçu ",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_nom_prop_en_location_fonc",
+  "libelle": "Nom du propriétaire du bien foncier",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_autre_gest_ramas_ordure",
+  "libelle": "Autre mode de gestion, de ramassage des ordures du bâtiment",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_mode_evac_eau_usees",
+  "libelle": "Mode d'évacuation des eaux usées du bâtiment",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_surface_lot_parcelle",
+  "libelle": "la superficie du lot ou de la parcelle foncière",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_contact_prop_en_location",
+  "libelle": "contact du propriétaire du bien foncier mis en location",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_annee_const_bati",
+  "libelle": "année de construction du bâtiment",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_type_lotissement",
+  "libelle": "type de lotissement du bien foncier",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_num_lot",
+  "libelle": "numéro du lot",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_identifiant_bat",
+  "libelle": "identifiant du bâtiment",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_num_ilot",
+  "libelle": "numéro ilot",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_nbre_appart",
+  "libelle": "nombre d'appartement ",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_photo_quittance",
+  "libelle": "photo de quittance",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_partie_bati_impact",
+  "libelle": "Partie du bâtiment impactée par le projet.",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_proprio_fonc",
+  "libelle": "Propriétaire du bien foncier",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_loyer_mens_paye",
+  "libelle": "loyer mensuel payé",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_nbre_piece_bati",
+  "libelle": "Nombre de pièce dans le bâtiment",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_statut_occ_bati",
+  "libelle": "statut d'occupation du bâtiment",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_autre_gest_eaux_usees",
+  "libelle": "une autre méthode de gestion des eaux usées",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_type_construction",
+  "libelle": "type de construction",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_materiau_const",
+  "libelle": "matériaux de construction du bâtiment",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_type_comodite",
+  "libelle": "type de commodité",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_bati_mode_ram_ordures",
+  "libelle": "mode de ramassage des ordures du bâtiment",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_carac_bien_foncier_mode_acquisition",
+  "libelle": "mode d'acquisition du bien foncier",
+  "type": "varchar"
+ }
+]

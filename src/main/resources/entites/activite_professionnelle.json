@@ -1,0 +1,42 @@
+[
+ {
+  "nom": "activite_professionnelle_transfer_arg",
+  "libelle": "Transfert d'argent",
+  "type": "varchar"
+ },
+ {
+  "nom": "activite_professionnelle_revenu_cumul",
+  "libelle": "revenu total cumulé",
+  "type": "varchar"
+ },
+ {
+  "nom": "activite_professionnelle_activite_princip_menage",
+  "libelle": "activité pincipale du menage",
+  "type": "varchar"
+ },
+ {
+  "nom": "activite_professionnelle_is_parcelle_hors_emprise",
+  "libelle": "la parcelle est située hors de l'emprise ?",
+  "type": "boolean"
+ },
+ {
+  "nom": "identifiant_pap",
+  "libelle": "identifiant du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "activite_professionnelle_presence_activ_second_menage",
+  "libelle": "présence d'une activité secondaire du ménage ?",
+  "type": "varchar"
+ },
+ {
+  "nom": "activite_professionnelle_revenu_moye_act_prin",
+  "libelle": "revenu moyen provenant de l'activité principale",
+  "type": "varchar"
+ },
+ {
+  "nom": "activite_professionnelle_lieu_travail",
+  "libelle": "lieu de travail ",
+  "type": "varchar"
+ }
+]

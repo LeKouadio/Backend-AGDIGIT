@@ -1,0 +1,62 @@
+[
+ {
+  "nom": "avis_sur_projet_is_recommandation",
+  "libelle": "avez-vous des recommandations ?",
+  "type": "boolean"
+ },
+ {
+  "nom": "avis_sur_projet_oui_recommandation",
+  "libelle": "Recommandation ou suggestion formulée par le répondant concernant le projet",
+  "type": "varchar"
+ },
+ {
+  "nom": "avis_sur_projet_justi_avis",
+  "libelle": "justification de l'avis",
+  "type": "varchar"
+ },
+ {
+  "nom": "avis_sur_projet_prj_info_recues",
+  "libelle": "informations reçues sur le projet",
+  "type": "varchar"
+ },
+ {
+  "nom": "identifiant_pap",
+  "libelle": "identifiant du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "avis_sur_projet_is_avez_attentes",
+  "libelle": "avez-vous des attentes enves le projet ?",
+  "type": "boolean"
+ },
+ {
+  "nom": "avis_sur_projet_oui_attentes",
+  "libelle": "attentes",
+  "type": "varchar"
+ },
+ {
+  "nom": "avis_sur_projet_oui_craintes",
+  "libelle": "craintes",
+  "type": "varchar"
+ },
+ {
+  "nom": "avis_sur_projet_is_avez_craintes",
+  "libelle": "Le répondant a-t-il exprimé des craintes ?",
+  "type": "boolean"
+ },
+ {
+  "nom": "avis_sur_projet_information_projet",
+  "libelle": "Y'a t-il une information sur le projet ?",
+  "type": "varchar"
+ },
+ {
+  "nom": "avis_sur_projet_source_infor",
+  "libelle": "source d'information",
+  "type": "varchar"
+ },
+ {
+  "nom": "avis_sur_projet_pensee_prj",
+  "libelle": "opinion sur le projet",
+  "type": "varchar"
+ }
+]

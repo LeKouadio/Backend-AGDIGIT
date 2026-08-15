@@ -1,0 +1,82 @@
+[
+ {
+  "nom": "niv_equipe_men_ordinateur",
+  "libelle": "équipement ordinateur",
+  "type": "varchar"
+ },
+ {
+  "nom": "niv_equipe_men_fer",
+  "libelle": "équipement fer",
+  "type": "varchar"
+ },
+ {
+  "nom": "niv_equipe_men_television",
+  "libelle": "équipement television",
+  "type": "varchar"
+ },
+ {
+  "nom": "niv_equipe_men_clim",
+  "libelle": "équipement clim",
+  "type": "varchar"
+ },
+ {
+  "nom": "niv_equipe_men_velo",
+  "libelle": "équipement vélo",
+  "type": "varchar"
+ },
+ {
+  "nom": "niv_equipe_men_machine",
+  "libelle": "équipement machine",
+  "type": "varchar"
+ },
+ {
+  "nom": "niv_equipe_men_portable",
+  "libelle": "équipement portable",
+  "type": "varchar"
+ },
+ {
+  "nom": "niv_equipe_men_moto",
+  "libelle": "équipement moto",
+  "type": "varchar"
+ },
+ {
+  "nom": "niv_equipe_men_congelateur",
+  "libelle": "équipement congélateur",
+  "type": "varchar"
+ },
+ {
+  "nom": "niv_equipe_men_salon",
+  "libelle": "équipement salon",
+  "type": "varchar"
+ },
+ {
+  "nom": "niv_equipe_men_biblio",
+  "libelle": "équipement bibliothèque",
+  "type": "varchar"
+ },
+ {
+  "nom": "niv_equipe_men_cuisiniere",
+  "libelle": "équipement cuisinière",
+  "type": "varchar"
+ },
+ {
+  "nom": "identifiant_pap",
+  "libelle": "identifiant du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "niv_equipe_men_type_sanitaire",
+  "libelle": "type d'équipement sanitaire",
+  "type": "varchar"
+ },
+ {
+  "nom": "niv_equipe_men_voiture",
+  "libelle": "équipement voiture ",
+  "type": "varchar"
+ },
+ {
+  "nom": "niv_equipe_men_radio",
+  "libelle": "équipement radio",
+  "type": "varchar"
+ }
+]

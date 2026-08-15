@@ -1,0 +1,42 @@
+[
+ {
+  "nom": "liste_catgori_list_act_com_delca_act_com_salaire_emp_act_com",
+  "libelle": "salaire de l'employeur dans le cadre de l'activité commerciale",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_catgori_list_act_com_delca_act_com_lieu_resi_emp_act_com",
+  "libelle": "lieu de résidence de l'employeur lié à l'activité commerciale",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_list_act_com_delca_act_com_employeur_act_com",
+  "libelle": "déclaration de l'employeur dans une activité commerciale",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_catgori_list_act_com_delca_act_com_num_piece_emp_act_com",
+  "libelle": "Numéro de la pièce d'identité de l'employeur associé à l'activité commerciale déclarée",
+  "type": "varchar"
+ },
+ {
+  "nom": "identifiant_pap",
+  "libelle": "identifiant du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_catgori_list_act_com_delca_act_com_contact_emp_act_com",
+  "libelle": "contact de l'employeur lié à l'activité commerciale",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_categorie_list_act_com_delca_act_com_type_piece_emp",
+  "libelle": "type de pièce d'identité de l'employeur lié à l'activité commerciale",
+  "type": "varchar"
+ },
+ {
+  "nom": "liste_catgori_lst_act_com_delca_act_com_nom_prno_emp_act_com",
+  "libelle": "nom et prénom de l'employeur lié à l'activité commerciale",
+  "type": "varchar"
+ }
+]

@@ -1,0 +1,122 @@
+[
+ {
+  "nom": "identifiant_pap",
+  "libelle": "identifiant du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "is_deleted",
+  "libelle": "Le fichier a-t-il été supprimé ?",
+  "type": "boolean"
+ },
+ {
+  "nom": "_submission_time",
+  "libelle": "Date et heure auxquelles l'enregistrement ou le formulaire a été soumis au serveur",
+  "type": "timestamp"
+ },
+ {
+  "nom": "_geolocation_0",
+  "libelle": "la première coordonnée géographique enregistrée (latitude)",
+  "type": "varchar"
+ },
+ {
+  "nom": "media_file_basename",
+  "libelle": "nom de base du fichier média",
+  "type": "varchar"
+ },
+ {
+  "nom": "meta_instance_name",
+  "libelle": "nom de l'instance",
+  "type": "varchar"
+ },
+ {
+  "nom": "_submitted_by",
+  "libelle": "l'utilisateur ayant soumis le formulaire",
+  "type": "varchar"
+ },
+ {
+  "nom": "_xform_id_string",
+  "libelle": "l'identifiant du formulaire",
+  "type": "varchar"
+ },
+ {
+  "nom": "_uuid",
+  "libelle": "l'identifiant unique universel de l'enregistrement",
+  "type": "varchar"
+ },
+ {
+  "nom": "_validation_status",
+  "libelle": "statut de validation ",
+  "type": "varchar"
+ },
+ {
+  "nom": "download_large_url",
+  "libelle": "l'URL de téléchargement de la version grande",
+  "type": "varchar"
+ },
+ {
+  "nom": "download_url",
+  "libelle": "l'URL de téléchargement",
+  "type": "varchar"
+ },
+ {
+  "nom": "image_pap_photo_piece_recto",
+  "libelle": "Photo du recto de la pièce d'identité du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "image_pap_photo_pap",
+  "libelle": "la photo du PAP",
+  "type": "varchar"
+ },
+ {
+  "nom": "question_xpath",
+  "libelle": "chemin XPath de la question dans le formulaire",
+  "type": "varchar"
+ },
+ {
+  "nom": "mimetype",
+  "libelle": "type ou format MIME du fichier attaché.",
+  "type": "varchar"
+ },
+ {
+  "nom": "uid",
+  "libelle": "l'identifiant unique du fichier attaché",
+  "type": "varchar"
+ },
+ {
+  "nom": "download_medium_url",
+  "libelle": "l'URL de téléchargement de la version moyenne",
+  "type": "varchar"
+ },
+ {
+  "nom": "image_pap_photo_piece_verso",
+  "libelle": "Photo du veso de la pièce d'identité du pap",
+  "type": "varchar"
+ },
+ {
+  "nom": "filename",
+  "libelle": "nom du fichier",
+  "type": "varchar"
+ },
+ {
+  "nom": "_geolocation_1",
+  "libelle": "la deuxième coordonnée géographique enregistrée (longitude)",
+  "type": "varchar"
+ },
+ {
+  "nom": "meta_root_uuid",
+  "libelle": "Identifiant unique du formulaire parent permettant de rattacher un enregistrement enfant à son enregistrement parent.",
+  "type": "varchar"
+ },
+ {
+  "nom": "download_small_url",
+  "libelle": "l'URL de téléchargement de la petite version",
+  "type": "varchar"
+ },
+ {
+  "nom": "meta_instance_id",
+  "libelle": "l'identifiant unique de l'instance de collecte",
+  "type": "varchar"
+ }
+]
